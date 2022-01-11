@@ -7,15 +7,17 @@ public class FlipCard : MonoBehaviour
     // Start is called before the first frame update
     public float x, y, z;
 
+    public GameObject cardFront;
     public GameObject cardBack;
 
+    public bool cardFrontIsActive;
     public bool cardBackIsActive;
 
     public int timer;
 
     void Start()
     {
-        cardBackIsActive = false;
+        cardFrontIsActive = false;
     }
 
     // Update is called once per frame
@@ -34,15 +36,19 @@ public class FlipCard : MonoBehaviour
 
     public void Flip()
     {
-        if(cardBackIsActive == true)
+        if(cardFrontIsActive == true)
         {
-            cardBack.SetActive(false);
-            cardBackIsActive = false;
+            cardFront.SetActive(false);
+            cardFrontIsActive = false;
+            cardBack.SetActive(true);
+            cardBackIsActive = true;
         }
         else
         {
-            cardBack.SetActive(true);
-            cardBackIsActive = true;
+            cardFront.SetActive(true);
+            cardFrontIsActive = true;
+            cardBack.SetActive(false);
+            cardBackIsActive = false;
         }
     }
 
@@ -50,7 +56,7 @@ public class FlipCard : MonoBehaviour
     {
         for(int i=0 ; i<180; i++)
         {
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(0.001f);
             transform.Rotate(new Vector3(x, y, z));
             timer++;
             
