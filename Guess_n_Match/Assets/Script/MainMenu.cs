@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
@@ -18,9 +19,13 @@ public class MainMenu : MonoBehaviour
         infoPanel.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ConfirmExit()
     {
-        
+        Application.Quit();
+    }
+    // Update is called once per frame
+    public void nextScene()
+    {
+        SceneManager.LoadScene("Select GameType");
     }
 }
