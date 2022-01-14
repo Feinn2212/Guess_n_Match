@@ -21,19 +21,22 @@ public class Card : MonoBehaviour
     private GameObject manager;
 
     private void Start() {
-        _state = 0;
+        _state = 1;
         manager = GameObject.FindGameObjectWithTag("Manager");
     }
 
     public void setupGraphics()
     {
-        //cardBack =  manager.GetComponent<GameManager>().getCardBack();
-        //cardFace = manager.GetComponent<GameManager>().getCardFace(cardValue);
+        cardBack = manager.GetComponent<GameManager>().getCardBack();
+        cardFace = manager.GetComponent<GameManager>().getCardFace(_cardValue);
         flipCard();
     }
 
-    void flipCard()
+    public void flipCard()
     {
+        if (_state == 0) _state = 1;
+        else if (_state == 1) _state = 0;
+
         if (_state == 0 && !DO_NOT)
         {
             GetComponent<Image>().sprite = cardBack;
@@ -75,8 +78,8 @@ public class Card : MonoBehaviour
         else if (_state == 1)
         {
             GetComponent<Image>().sprite = cardFace;
-            DO_NOT = false;
         }
+        DO_NOT = false;
     }
 
 }
