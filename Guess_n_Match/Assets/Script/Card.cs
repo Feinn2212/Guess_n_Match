@@ -68,9 +68,11 @@ public class Card : MonoBehaviour
         StartCoroutine(pause());
     }
 
+
     IEnumerator pause() 
     {
         yield return new WaitForSeconds (1); 
+
         if (_state == 0)
         {
             GetComponent<Image>().sprite = cardBack;

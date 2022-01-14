@@ -177,6 +177,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &21226375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,6 +329,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &95478920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -473,6 +481,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &99544680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -621,6 +633,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &127568542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -769,6 +785,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &306489529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -917,6 +937,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &406159643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1148,6 +1172,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 1
+  z: 0
+  timer: 90
 --- !u!114 &616663051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1296,6 +1324,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &688174291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1444,6 +1476,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &776516265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1592,6 +1628,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &832404669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1740,6 +1780,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &928685561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1888,6 +1932,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &946330100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2036,6 +2084,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &987199887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2184,6 +2236,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &1216424869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2398,6 +2454,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &1353492911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2804,6 +2864,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &1762660324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3007,6 +3071,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &2011752753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3155,6 +3223,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &2042512438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3303,6 +3375,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &2074569470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3526,6 +3602,10 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
+  x: 0
+  y: 0
+  z: 0
+  timer: 0
 --- !u!114 &2100926002
 MonoBehaviour:
   m_ObjectHideFlags: 0
