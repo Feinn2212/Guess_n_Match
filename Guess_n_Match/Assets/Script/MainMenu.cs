@@ -10,12 +10,13 @@ public class MainMenu : MonoBehaviour
     public GameObject infoPanel;
     public void ToogleInfo()
     {
+        AudioManager.instance.Play("pop");
         infoPanel.SetActive(true);
-
     }
     
     public void closeInfo()
     {
+        AudioManager.instance.Play("pop");
         infoPanel.SetActive(false);
     }
 
@@ -26,6 +27,7 @@ public class MainMenu : MonoBehaviour
     // Update is called once per frame
     public void nextScene()
     {
+        AudioManager.instance.Play("pop");
         SceneManager.LoadScene("Select GameType");
     }
 }

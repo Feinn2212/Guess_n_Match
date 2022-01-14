@@ -43,6 +43,7 @@ public class Card : MonoBehaviour
         }
         else if(_state == 1 && !DO_NOT)
         {
+            AudioManager.instance.Play("flip");
             GetComponent<Image>().sprite = cardFace;
         }
     }

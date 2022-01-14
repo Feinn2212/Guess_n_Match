@@ -86,6 +86,7 @@ public class GameManager : MonoBehaviour
         if(cards[c[0]].GetComponent<Card>().cardValue == cards[c[1]].GetComponent<Card>().cardValue)
         {
             x = 2;
+            AudioManager.instance.Play("match");
             _matches--;
             matchText.text = "Number of Matches: " + _matches;
             if (_matches == 0)

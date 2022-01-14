@@ -20,11 +20,13 @@ public class GameType : MonoBehaviour
     {
         if(showed == false)
         {
+            AudioManager.instance.Play("pop");
             GearPanel.SetActive(true);
             showed = true;
         }
         else
         {
+            AudioManager.instance.Play("pop");
             GearPanel.SetActive(false);
             showed = false;
         }
@@ -32,21 +34,25 @@ public class GameType : MonoBehaviour
 
     public void playGame()
     {
+        AudioManager.instance.Play("pop");
         SceneManager.LoadScene("PlayGame");
     }
 
     public void soundtest()
     {
+        AudioManager.instance.Play("pop");
         Debug.Log("Button Clicked");
     }
 
     public void ShowUnderDevelopemtn()
     {
+        AudioManager.instance.Play("pop");
         UnderDev.SetActive(true);
     }
 
     public void HideUnderDevelopemtn()
     {
+        AudioManager.instance.Play("pop");
         UnderDev.SetActive(false);
     }
 
