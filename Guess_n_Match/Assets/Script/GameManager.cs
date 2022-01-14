@@ -8,10 +8,12 @@ public class GameManager : MonoBehaviour
     public Sprite[] cardFaces;
     public Sprite cardBack;
     public GameObject[] cards;
+    public GameObject WinPanel;
     public Text matchText;
     private bool _init = false;
     private int _matches = 10;
-    
+
+
     void Update()
     {
         if (!_init)
@@ -91,7 +93,7 @@ public class GameManager : MonoBehaviour
             matchText.text = "Number of Matches: " + _matches;
             if (_matches == 0)
             {
-                //SceneManager.LoadScene
+                ShowWinPanel();
             }
         }
         for (int i = 0; i < c.Count; i++)
@@ -99,5 +101,10 @@ public class GameManager : MonoBehaviour
             cards [c[i]].GetComponent<Card>().state = x;
             cards [c[i]].GetComponent<Card>().falseCheck();
         }
+    }
+
+    public void ShowWinPanel()
+    {
+        WinPanel.SetActive(true);
     }
 }
