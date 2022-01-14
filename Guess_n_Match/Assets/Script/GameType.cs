@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameType : MonoBehaviour
 {
     public GameObject GearPanel;
+    public GameObject UnderDev;
     private bool showed = false;
 
     public void QuitGame()
@@ -39,6 +40,14 @@ public class GameType : MonoBehaviour
         Debug.Log("Button Clicked");
     }
 
-    
+    public void ShowUnderDevelopemtn()
+    {
+        UnderDev.SetActive(true);
+    }
+
+    public void HideUnderDevelopemtn()
+    {
+        UnderDev.SetActive(false);
+    }
 
 }
